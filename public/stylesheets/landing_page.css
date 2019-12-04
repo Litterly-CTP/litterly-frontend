@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("../Landing-Images/landing_pg_bg.svg");
+    background-size: 100%;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color:rgba(255,255,255, 0.5);
+}
+
+#mainNavbar .nav-link:hover {
+    color: #fff; /* TODO: What color should the hover be? */
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.8rem;
+    margin-left: 40px;
+}
+
+.navbar.scrolled {
+    background: #4D5CF7;
+    transition: background 500ms;
+}
+
+#mainNavbar #navLinks {
+    text-align: right;
+}
+
+#downloadButton-right {
+    color: white;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#headline {
+    margin-left: 100px;
+    position: relative;
+    margin-top: 450px;
+    color: white;
+}
+
+#headline h2 {
+    font-weight: 900;
+}
+
+#headline #downloadButton-left {
+    margin-top: 10px;
+    color: white;
+}
+
+#statistic-1 {
+    color: white;
+    margin-top: 375px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.translucent-statistic {
+    opacity: 50%;
+    font-size: 6.5rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+#statistic-2 {
+    color: white;
+    margin-top: 450px;
+    margin-right: 150px;
+    text-align: right;
+    font-size: 2rem;
+} 
+
+.md-white-bold-text {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+#mobile-app {
+    margin-top: 525px;
+    text-align: center;
+    color: white;
+}
+
+.content-box {
+    width: 180px;
+    height: 140px;
+    background-color: #353A50;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.info-icons {
+    margin-top: 15px;
+}
+
+#phone-img {
+    width: 300px;
+    height: auto;
+}
+
+.side-mobile {
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+#current-meetups {
+    margin-top: 250px;
+    text-align: center;
+}
+
+#yellow-subtitle {
+    color: #FFDB70;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#current-map {
+    width: 90%;
+}
+
+#download-button {
+    margin-top: 10px;
+    color: white;
+    box-shadow: 4px 4px 4px #383838;
+}
+
+#get-involved {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+#contact-space {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 450px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer-tag {
+    margin-right: 20px;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+footer img {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 40px;
+    height: auto;
+}
