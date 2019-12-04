@@ -6,23 +6,52 @@ $(function () {
         $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     });
 });
+()
+// export function render_impact(){
+//     console.log("abcd");
+// //$( document ).ready( () => {
+//  //   const { db } = require('../services/firestore.js');
+//    // const trash_reported = db.collection("Users").doc("exampleuser@gmail.com").data().reported_trash;
+//    // console.log(trash_reported);
+//     // $("#trashreported").html(trash_reported);
 
-function onSuccess(googleUser) {
-    console.log(‘Logged in as: ’ + googleUser.getBasicProfile().getName());
+// }
+//  });
+// $( document ).ready( () => {
+//     const { db } = require('../services/firestore.js');
+//     const trash_reported = db.collection("Users").doc(exampleuser@gmail.com).data().reported_trash;
+//     const meetups_attended = //Get shit from database;
+//     const trees_saved = //Get shit from database;
+//     $("#trashreported").html(trash_reported);
+//     $("#meetups-attended").html(meetups_attended);
+//     $("#trees-saved").html(trees_saved);
 
-}
-function onFailure(error) {
-    console.log(error);
-}
+// }
 
-function renderButton() {
-    gapi.signin2.render(‘my-signin2’, {
-        ‘scope’: ‘profile email’,
-        ‘width’: 240,
-        ‘height’: 50,
-        ‘longtitle’: true,
-        ‘theme’: ‘dark’,
-        ‘onsuccess’: onSuccess,
-        ‘onfailure’: onFailure
-    });
-}
+
+
+// $( document ).ready( () => {
+//     const { db } = require('../services/firestore.js');
+//     const trash_reported = db.collection("Users").doc(exampleuser@gmail.com).data().reported_trash;
+//     $("#trashreported").html(trash_reported);
+
+// }
+// function onSuccess(googleUser) {
+//     console.log(‘Logged in as: ’ + googleUser.getBasicProfile().getName());
+
+// }
+// function onFailure(error) {
+//     console.log(error);
+// }
+
+// function renderButton() {
+//     gapi.signin2.render(‘my-signin2’, {
+//         ‘scope’: ‘profile email’,
+//         ‘width’: 240,
+//         ‘height’: 50,
+//         ‘longtitle’: true,
+//         ‘theme’: ‘dark’,
+//         ‘onsuccess’: onSuccess,
+//         ‘onfailure’: onFailure
+//     });
+// }

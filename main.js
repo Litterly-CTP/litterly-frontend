@@ -6,12 +6,12 @@ const auth = require("firebase/auth"),
 
 // APP CONFIG
 var engine = require('consolidate');
-
-app.set('views', __dirname + '/views');
 app.engine('html', engine.mustache);
 app.set('view engine', 'html');
+//.app.set('views', __dirname + '/public');
+
 // app.set('view engine', 'html');
-// app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 
 
@@ -19,6 +19,12 @@ app.get("/", (req, res) =>
 {
     res.render('landing');
 });
+
+app.get("/profile", (req, res) => 
+{
+    res.render('profile');
+});
+
 
 
 app.listen(5000, () => {

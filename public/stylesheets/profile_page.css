@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: url(images/background_profile_page.svg);
+    background: url("../images/background_profile_page.svg");
     background-size: 100%;
 }
 

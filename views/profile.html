@@ -3,9 +3,6 @@
     <head>
         <title>Profile Page</title>
 
-        <!-- Styling  -->
-        <link rel="stylesheet" href="profile_page.css">
-
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         
@@ -18,8 +15,13 @@
         <!-- Javascript Page -->
         <script src="index.js"></script>
 
+        <!-- JQuery Function On Load-->
+        <script type="module" src="index.js">render_impact()</script>
+
         <!-- Google Map -->
 
+        <!-- Styling  -->
+        <link rel="stylesheet" href="/stylesheets/profile_page.css">
 
     </head>
     <body>
@@ -33,17 +35,14 @@
     <div id=icons-below-navbar>
         <div class="container">
             <div class="row">
-                <div class="col-3">
-                    <img src="images/weekly-calendar.svg" alt="Weekly calendar">
+                <div class="col-4">
+                    <img src="/images/weekly-calendar.svg" alt="Weekly calendar">
                 </div>
-                <div class="col-3">
-                    <img src="images/project-management.svg" alt="Project Management">
+                <div class="col-4">
+                    <img src="/images/project-management.svg" alt="Project Management">
                 </div>
-                <div class="col-3">
-                    <img src="images/medal.svg" alt="Medal">
-                </div>
-                <div class="col-3">
-                    <img src="images/bio.svg" alt="Bio">
+                <div class="col-4">
+                    <img src="/images/bio.svg" alt="Bio">
                 </div>
             </div>
         </div>
@@ -52,17 +51,11 @@
     <div id=data-below-navbar>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    Placeholder
+                <div id="trashreported" class="col-lg-4">
                 </div>
-                <div class="col-lg-3">
-                    Placeholder
+                <div id="meetups-attended" class="col-lg-4">
                 </div>
-                <div class="col-lg-3">
-                    Placeholder
-                </div>
-                <div class="col-lg-3">
-                    Placeholder
+                <div id="trees-saved" class="col-lg-4">
                 </div>
             </div>
         </div>
@@ -71,16 +64,13 @@
     <div id=header-below-navbar>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     Trash Reported
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     Meet Ups
                 </div>
-                <div class="col-lg-3">
-                    Cleanups
-                </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     Trees Saved
                 </div>
             </div>
@@ -103,7 +93,7 @@
             map = new google.maps.Map(document.getElementById('map'), {
                 center: {lat: -34.397, lng: 150.644},
                 zoom: 8
-                //query data here, may need separate file to code for markers to appeara?
+                //query data here, may need separate file to code for markers to appear?
             });
             }
         </script>
