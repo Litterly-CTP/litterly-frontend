@@ -1,0 +1,23 @@
+{
+  "name": "litterly-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify main.js -o static/js/bundles.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Litterly-CTP/litterly-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Litterly-CTP/litterly-frontend/issues"
+  },
+  "homepage": "https://github.com/Litterly-CTP/litterly-frontend#readme",
+  "dependencies": {
+    "firebase": "^7.5.0"
+  }
+}
