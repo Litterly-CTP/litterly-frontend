@@ -25,7 +25,10 @@ app.get("/profile", (req, res) =>
     res.render('profile');
 });
 
-
+app.get("/signin", (req, res) => 
+{
+    res.render('signin');
+});
 
 app.listen(5000, () => {
     console.log('and so its begun');
