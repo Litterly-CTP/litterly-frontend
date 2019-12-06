@@ -2,3 +2,82 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #4D5CF7;
 }
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color:rgba(255,255,255, 0.5);
+}
+
+#mainNavbar .nav-link:hover {
+    color: #fff; /* TODO: What color should the hover be? */
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.8rem;
+    margin-left: 40px;
+}
+
+.navbar.scrolled {
+    background: #4D5CF7;
+    transition: background 500ms;
+}
+
+#mainNavbar #navLinks {
+    text-align: right;
+}
+
+#downloadButton-right {
+    color: white;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+h1 {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+#login-box {
+    margin: 50px auto;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#google-button {
+    margin-top: 130px;
+}
+
+footer {
+    margin-top: 100px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer-tag {
+    margin-right: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+footer img {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 40px;
+    height: auto;
+}
